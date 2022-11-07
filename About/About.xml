@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Mines Support For Cupro's Stones</name>
+    <author>UntouchedWagons</author>
+    <url>https://github.com/UntouchedWagons/MinesSupportForCuprosStones</url>
+    <packageId>UntouchedWagons.Mines.MinesSupportForCuprosStones</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <description>
+      [h1]Mines Support For Cupro's Stones[/h1]
+    </description>
+
+    <modDependencies>
+        <li>
+            <packageId>ogliss.cupro.cuprosstones</packageId>
+            <displayName>Cupro's Stones</displayName>
+            <downloadUrl>https://github.com/Ogliss/Cupros-Stones/</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2018621294</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>wexman.mines</packageId>
+            <displayName>Mines</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1545681321</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ogliss.cupro.cuprosstones</li>
+        <li>wexman.mines</li>
+    </loadAfter>
+</ModMetaData>
